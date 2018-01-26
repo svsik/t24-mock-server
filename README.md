@@ -2,4 +2,4 @@ This is a T24 Iris Mock Spring Boot application that is deploying to the WildFly
 
 This repo can also be deployed directly as a docker container using the WildFly S2I builder image on OpenShift 3 with the following command:
 
-	oc new-app wildfly:latest~https://agit.kbc.be:6088/scm/kbcie/[TBD].git
+	oc new-app codecentric/springboot-maven3-centos:latest~https://github.com/svsik/t24-mock-server.git
